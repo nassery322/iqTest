@@ -1,0 +1,37 @@
+.test-startup{
+    text-align: center;
+}
+.test-header{
+    font-size: 3rem; color:white; font-family: 'Courier New', Courier, monospace; padding-top:45px;
+}
+.test-quote{ margin-top:2%;
+    text-align: center; font-size: 2rem; color:white; font-family: 'Exo 2', sans-serif;
+font-weight: 700; 
+}
+.test-info p {
+color:black;
+}
+.test-info{
+    font-size: 2rem; margin-top:3%; color:white; 
+}
+.test-form{
+    margin-top:5% ; font-size: 1.5rem; color:white;
+}
+.test-form input{
+    width: 80px; height: 3.3rem; border:1px solid; border-radius: 8px; font-size: 1.1rem; margin:0 10px; margin-bottom: 15px;
+}
+@media (max-width:450px){
+    .test-header{
+        font-size: 2rem;
+    }
+    .test-quote{
+        font-size: 1.4rem;
+    }
+    .test-info{
+        font: 1rem !important;
+    }
+    .start-btn{
+        width: 60%;
+    }
+
+}

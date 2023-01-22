@@ -1,0 +1,92 @@
+.test-container{
+    border: 1px white solid; position: relative; top:15vh; height: auto; width: 60%; margin:0 auto;
+background-color: rgba(23, 202, 222, 0.8);
+}
+.question-section{
+    font-size: 1.8rem; font-weight: 800; color:white; padding: 15px; border-bottom: 2px solid white; min-height: 5rem; height: auto;
+}
+.options-section{
+    font-size: 1.6rem;  margin-bottom: 4%; font-weight: 600;
+
+}
+.options-section div{
+    border-bottom: 3px solid white; padding: 10px; min-height: 3rem; height: auto;  transition: .3s all; display: flex; align-items: center;
+}
+.control-section{
+  width: 95%; display: flex; justify-content: flex-end;   margin-bottom: 4%;
+}
+
+.options-section div:hover{
+    background-color: white;
+}
+
+.selected{
+    background-color: white;
+}
+.timer-section{
+    display: flex; justify-content: space-between; align-items: center; width: 100%; margin-top:10px;
+}
+#progress-bar {
+    height: 5px;
+    width: 100%;
+    background-color: rgb(210, 65, 65);
+    transition: width 0.5s;
+  }
+  .progress{
+    width:95%;
+  }
+  #time{
+    justify-self: flex-end; font-size: 1.5rem;
+  }
+  .right{
+    background-color: rgb(69, 204, 69);
+  }
+  .wrong{
+    background-color: rgb(206, 72, 72);
+  }
+  
+
+  @media (max-width:960px){
+    .test-container{
+      width: 70%; 
+    }
+    .question-section{
+      font-size: 1.7rem;
+    }
+    .options-section{
+      font-size: 1.5rem;
+    }
+  }
+  @media (max-width:750px){
+    .test-container{
+      width: 80%; 
+    }
+    .question-section{
+      font-size: 1.5rem;
+    }
+    .options-section{
+      font-size: 1.3rem;
+    }
+  }
+  @media (max-width:600px){
+    .test-container{
+      width: 90%; font-size: 1.2rem; 
+    }
+    .question-section{
+      font-size: 1.3rem;
+    }
+    .options-section{
+      font-size: 1rem;
+    }
+  }
+  @media (max-width:500px){
+    .test-container{
+      width: 100%; font-size: 0.3rem !important;
+    }
+.question-section{
+font-size: 1.2rem !important;
+}   
+ .options-section{
+      font: .6rem !important;
+    }
+  }

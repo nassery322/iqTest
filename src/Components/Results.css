@@ -1,0 +1,11 @@
+.results{  font-weight: 600; margin:0 auto;
+    width: 100%;  text-align: center;
+  font-size: 1.5rem; color: white; padding-top: 10px; padding-bottom: 10px;
+}
+.results div{
+    margin-bottom: 5%;  
+}
+.check-btn{
+    width: 60%;
+}
+
