@@ -15,7 +15,7 @@ const Results = props =>{
                 <div className='results-header'>Your IQ is:</div>
                 <div className='score'>{props.score * 8}</div>
                 <div className='results-question'> You have got {props.score} out of 25 questions right!</div>
-                <div className='recheck'><ButtonA className='check-btn' onClick={checkHandler}>Check your answeres</ButtonA></div>
+                <div className='recheck'><ButtonA className='check-btn' onClick={checkHandler}>Check your answers</ButtonA></div>
                 <div className='retake'><ButtonB onClick={reTakeHandler}>Retake test</ButtonB></div>
             </div>
             </React.Fragment>

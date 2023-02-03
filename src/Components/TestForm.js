@@ -25,7 +25,7 @@ const TestForm = props =>{
                 Examine your IQ with our professtional IQ test!
             </div>
             <div className='test-info'>
-            <p>Note: you well have 10 minutes to answere these 25 questions and in the end you well see your results.</p>
+            <p>Note: you well have 10 minutes to answer these 25 questions and in the end you well see your results.</p>
             Please Enter your age in the field bellow:
             </div>
             <div className='test-form'>
